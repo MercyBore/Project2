@@ -1,0 +1,31 @@
+*{
+    font-family: sans-serif;
+}
+body{
+    background-color: #508AA8;
+}
+body > h2 {
+    text-align: center;
+    color: #FAA916;
+}
+#first,#second {
+    display: flex;
+    justify-content: space-around;
+}
+#first > div, #second > div {
+    height: 200px;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    border-bottom: 15px solid #FAA916;
+}
+
+#second > div:first-child:hover{
+    color: #FAA916;
+    border-bottom: 15px solid black;
+    text-shadow: none;
+}
+#second > div{
+    text-shadow:5px 5px 1px #FAA916;
+
+}
